@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="assets/js/anime.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="banner">
+     <div class="bannerTx">
+      <!--<h1 class="bannerFnt">About me (Title goes here)</h1>-->
+      <!--<button>I dont know what this does</button>-->
+     </div>
+    </div>
+    <div id="navbar">
+      <a href="#home.html">Home</a>
+      <a href="#work.html">My Work</a>
+      <a href="#about.html">Artist Statement</a>
+    </div>
+    <h1 class="AboutTitle">Title of about page (Change)</h1>
+    <h2 class="AboutSubtitle">Artist Statement</h2>
+      <article>
+        <p>The sound found me from when I was little, it was helping me to explain the Earths’ beauty – the one I could never describe my words. And I could never feel – I could only hear…
+I do not simply record, mix, and edit sounds – I release the inner me, my imagination because only then I can let myself freely experiment with the magic of the sound, forgetting any limitations and boundaries.
+Looking at my past, I could describe myself, firstly, as a talented child thirsty for the sound. When stepping my both feet into the rhythm – it all concluded to one big passion and capability, which led to the sound lover and enthusiast I consider myself today.</p>
+
+        <p>Throughout the three years in University, I gained knowledge and experience in different production departments but I mostly found myself curious about sound engineering, especially the part of recording and making Foley and Sound Effects. I always come up with thousands of ideas of sound effects I want to make. Experimenting with different layers and combinations in DW’s like Ableton or Pro Tools I am able to give the sound diverse which can build up experience in various entertainments.</p>
+
+      </article>
+    <footer class="social">
+      <a href="https://vimeo.com/pt-br/"><img src="assets\img\vimeo.png" class="vimeo" width="80" height="50"> </img></a>
+    </footer>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+        navbar.classList.remove("sticky");
+        }
+        }
+   </script>
+  </body>
+</html>
