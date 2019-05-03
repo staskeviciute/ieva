@@ -8,7 +8,6 @@ body {
   font-family: Arial;
 }
 
-/* Center website */
 .main {
   max-width: 1000px;
   margin: auto;
@@ -23,32 +22,31 @@ h1 {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 8px;
+  padding: 5px;
 }
 
-/* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
-/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 8px;
 }
+.content img{
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+  height: 25vw;
+    object-fit: contain;
+}
 @media screen and (max-width: 1000px) {
   .column {
     width: 50%;
@@ -61,10 +59,9 @@ h1 {
 }
 
 .zoom:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
