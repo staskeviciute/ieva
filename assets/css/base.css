@@ -4,8 +4,8 @@ body, html {
 }
 
 .banner{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bannerP.jpg");
-  height: 65%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("bannerP.jpg");
+  height: 85%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,15 +28,16 @@ body, html {
   flex-wrap: wrap;
   flex-flow: row;
   justify-content: space-evenly;
-  line-height: 40px;
+  line-height: 50px;
   z-index: 999;
 }
 
 #navbar a{
-  font-family: "Cambria"; //Escolhe a tua fonte, se quiseres
+  font-family: "Arial"; //Escolhe a tua fonte, se quiseres
   font-weight: 900;
   color: #f2f2f2;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .bannerFnt{
@@ -60,7 +61,6 @@ body, html {
 
 .social{
   background-color: black;
-  height: 7%;
 
 }
 
@@ -123,6 +123,7 @@ footer{
   position: relative;
   bottom: 0;
   width: 100%;
+  height: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
